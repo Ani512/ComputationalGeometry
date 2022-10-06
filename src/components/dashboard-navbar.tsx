@@ -47,6 +47,10 @@ export const DashboardNavbar = ({
               {isSidebarOpen ? <NavigateBefore /> : <NavigateNext />}
             </IconButton>
           </Box>
+          <Box sx={{
+                fontSize: '0.75rem',
+                fontStyle: 'italic',
+              }}><Typography>Anirudh Umarji</Typography></Box>
           <Box
             sx={{
               display: 'flex',
@@ -61,7 +65,7 @@ export const DashboardNavbar = ({
                 fontStyle: 'italic',
               }}
             >
-              CS 4V98 - Anirudh Umarji
+              Undergraduate Research
             </Box>
           </Box>
           <Box sx={{ width: '276.333px', height: '40px' }} />
