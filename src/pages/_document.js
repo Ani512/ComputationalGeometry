@@ -82,7 +82,7 @@ class CustomDocument extends Document {
           />
           <link
             rel="icon"
-            href="https://www.washingtonpost.com/wp-stat/assets/favicons/favicon.svg"
+            href="https://www.utdallas.edu/wp-content/themes/utdallas/images/favicon.svg"
           />
           <meta name="theme-color" content="rgba(240,240,240,1)" />
         </Head>

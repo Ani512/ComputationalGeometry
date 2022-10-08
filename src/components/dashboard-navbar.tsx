@@ -48,7 +48,6 @@ export const DashboardNavbar = ({
             </IconButton>
           </Box>
           <Box sx={{
-                fontSize: '0.75rem',
                 fontStyle: 'italic',
               }}><Typography>Anirudh Umarji</Typography></Box>
           <Box
@@ -59,15 +58,15 @@ export const DashboardNavbar = ({
             }}
           >
             <Typography>Computational Geometry</Typography>
-            <Box
+          </Box>
+          <Box
               sx={{
                 fontSize: '0.75rem',
                 fontStyle: 'italic',
               }}
             >
-              Undergraduate Research
+              <Typography>Undergraduate Research</Typography>
             </Box>
-          </Box>
           <Box sx={{ width: '276.333px', height: '40px' }} />
         </Toolbar>
       </DashboardNavbarRoot>

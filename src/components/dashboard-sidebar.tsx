@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Box, Drawer, useTheme } from '@mui/material';
 import { IconButton } from '@mui/material';
+import { InputComponent } from './InputComponent';
 import NavigateBefore from '@mui/icons-material/NavigateBefore';
 
 type DashboardSidebarProps = {
@@ -62,7 +63,7 @@ export const DashboardSidebar = ({
           </Box>
         </Box>
         <Box>
-          <h2>code for coordinates</h2>
+          <InputComponent />
         </Box>
       </Box>
     </>
